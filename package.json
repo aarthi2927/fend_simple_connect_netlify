@@ -40,5 +40,5 @@
     "react-scripts": "^5.0.1",
     "web-vitals": "^4.2.4"
   },
-  "proxy": "https://bend-con-render.onrender.com"
+  "proxy": "https://bend-con-render.onrender.com/"
 }
