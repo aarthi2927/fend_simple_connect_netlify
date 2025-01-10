@@ -5,7 +5,7 @@ function Nextpage(){
          useEffect(() => 
           { 
           // Fetch data from the backend using fetch 
-          fetch('https://bend-con-render.onrender.com/nextpage') 
+          fetch('/nextpage') 
           .then(response => response.text()) 
           .then(data => setMessage(data)) 
           .catch(error => console.error('Error fetching next page message:', error));

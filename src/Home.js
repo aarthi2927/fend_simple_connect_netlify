@@ -5,7 +5,7 @@ function Home(){
     useEffect(() => 
       { 
         // Fetch data from the backend using fetch 
-      fetch('https://bend-con-render.onrender.com/home') 
+      fetch('/home') 
       .then(response => response.text()) 
       .then(data => setMessage(data))
        .catch(error => console.error('Error fetching home page message:', error))
